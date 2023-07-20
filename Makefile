@@ -5,6 +5,7 @@ obj-$(CONFIG_SND_SOC) += amplifier/
 obj-y += display/
 obj-y += gps/
 obj-y += mfd/
+obj-$(CONFIG_REGULATOR) += regulator/
 else
 ccflags-y := -Wno-unused-function
 obj-y := stub.o

@@ -1,3 +1,4 @@
 source "techpack/mi845/input/Kconfig"
 source "techpack/mi845/amplifier/Kconfig"
 source "techpack/mi845/leds/Kconfig"
+source "techpack/mi845/regulator/Kconfig"
