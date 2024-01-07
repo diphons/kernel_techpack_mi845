@@ -2,9 +2,9 @@
 
 # auto-detect subdirs
 ifeq ($(CONFIG_ARCH_SDM845), y)
-include $(srctree)/techpack/display/config/konadisp.conf
+include $(srctree)/techpack/mi845/display/config/konadisp.conf
 
-LINUXINCLUDE    += -include $(srctree)/techpack/display/config/konadispconf.h
+LINUXINCLUDE    += -include $(srctree)/techpack/mi845/display/config/konadispconf.h
 
 obj-$(CONFIG_DRM_MSM) += msm/
 obj-$(CONFIG_MSM_SDE_ROTATOR) += rotator/
