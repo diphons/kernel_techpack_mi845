@@ -4572,11 +4572,7 @@ exit:
 	return rc;
 }
 
-i
-#ifdef CONFIG_D8G_SERVICE
-	oplus_panel_status = 2; // DISPLAY_POWER_ON
-#endif
-ct dsi_panel *panel)
+int dsi_panel_set_nolp(struct dsi_panel *panel)
 {
 	int rc = 0;
 	struct dsi_panel_mi_cfg *mi_cfg;
