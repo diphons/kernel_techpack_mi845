@@ -3,6 +3,7 @@ obj-$(CONFIG_NEW_LEDS) += leds/
 obj-$(CONFIG_INPUT) += input/
 obj-$(CONFIG_SND_SOC) += amplifier/
 obj-y += display/
+obj-y += gps/
 obj-y += mfd/
 else
 ccflags-y := -Wno-unused-function
