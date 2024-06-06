@@ -15,6 +15,14 @@ config TOUCHSCREEN_EDT_FT5X06_MI845
 	  To compile this driver as a module, choose M here: the
 	  module will be called edt-ft5x06.
 
+config TOUCHSCREEN_FTS_MAINLINE
+	tristate "Focaltech Touchscreen"
+	depends on I2C
+	default n
+	help
+	  Say Y here if you have Focaltech touch panel.
+	  If unsure, say N.
+
 source "techpack/mi845/input/touchscreen/focaltech_touch_mi/Kconfig"
 source "techpack/mi845/input/touchscreen/nt36xxx/Kconfig"
 

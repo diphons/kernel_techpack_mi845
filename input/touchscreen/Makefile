@@ -1,3 +1,4 @@
 obj-$(CONFIG_TOUCHSCREEN_EDT_FT5X06_MI845) += edt-ft5x06.o
+obj-$(CONFIG_TOUCHSCREEN_FTS_MAINLINE) += focaltech_fts.o
 obj-$(CONFIG_TOUCHSCREEN_FTS_MI845) += focaltech_touch_mi/
 obj-$(CONFIG_TOUCHSCREEN_NT36XXX_MI845) += nt36xxx/
